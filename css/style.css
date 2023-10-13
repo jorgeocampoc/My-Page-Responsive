@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script:wght@500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Amatic SC';
+}
+html{
+    scroll-behavior: smooth;
+}
+#nav-start{
+    background: linear-gradient(rgba(0,0,0.7), rgba(0,0,0,.7)), url('../assets/nav-title.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+
+}
+
+img{
+    height: 60px;
+    border-radius: 50%;
+}
+#nav-start .contain header{
+    background-color: rgba(0,0,0,.7);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+#nav-start .contain header .contain-header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+
+#nav-start .contain header .contain-header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#nav-start .contain header .contain-header nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 0 30px;
+    font-weight: 400;
+    transition: .4s;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+#nav-start .contain header .contain-header nav ul li a:hover{
+    color:rgb(240, 202, 175)
+}
+
+#nav-start .contain header .contain-header .social-networks a{
+    color: aliceblue;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+#nav-start .contain header .contain-header .social-networks a:hover{
+    color:royalblue
+}
+
+
+#nav-start .contain .default-section{
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#nav-start .contain .default-section .title{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color:aliceblue;
+    letter-spacing: 10px;
+}
+#nav-start .contain .default-section h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#nav-start .contain .default-section .describtion{
+    max-width: 700px;
+    font-size: 25px;
+    margin: 25px auto;
+    justify-content: center;
+}
+#nav-start .contain .default-section a{
+    text-decoration: none;
+    display: inline-block;
+    color: aliceblue;
+    margin: 20px;
+    padding: 10px 10px;
+    border-radius: 8px;
+    border: 2px solid ;
+    font-weight: bold;
+    transition: .5s ;
+}
+#nav-start .contain .default-section a:hover{
+    color:rgb(240, 202, 175)
+}
+#icon-nav{
+    color:aliceblue;
+}
